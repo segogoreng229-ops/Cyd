@@ -1,0 +1,374 @@
+/* --- Base Styling (Deep Ocean Night) --- */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #0a192f 0%, #0f2042 100%);
+    color: #cbd5e1; /* Warna teks abu-abu terang agar nyaman di mata */
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+/* --- Navigasi (Neon Dark Floating) --- */
+nav {
+    text-align: center;
+    background: rgba(15, 32, 66, 0.7);
+    backdrop-filter: blur(12px);
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+    border: 1px solid rgba(0, 242, 254, 0.15);
+    margin-bottom: 20px;
+}
+
+nav a {
+    color: #00f2fe; /* Warna cyan menyala */
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 15px;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    color: #ffffff;
+    background-color: rgba(0, 242, 254, 0.2);
+    border-radius: 6px;
+    text-shadow: 0 0 8px rgba(0, 242, 254, 0.6);
+}
+
+/* --- Garis Pembatas (Laser Cyan) --- */
+hr {
+    border: 0;
+    height: 1px;
+    background: linear-gradient(to right, transparent, #00f2fe, transparent);
+    margin: 30px 0;
+}
+
+/* --- Header & Foto Profil --- */
+header h1 {
+    color: #ffffff;
+    text-shadow: 0 0 10px rgba(0, 242, 254, 0.3);
+    margin-bottom: 5px;
+}
+
+header p {
+    color: #00f2fe;
+    font-style: italic;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+header img {
+    border: 3px solid #00f2fe;
+    box-shadow: 0 0 25px rgba(0, 242, 254, 0.4);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+header img:hover {
+    transform: scale(1.05) rotate(2deg);
+    box-shadow: 0 0 35px rgba(0, 242, 254, 0.7);
+}
+
+/* --- Section Overview --- */
+article {
+    background: rgba(15, 32, 66, 0.5);
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+article h2 {
+    color: #00f2fe;
+    margin-top: 0;
+    border-bottom: 2px solid rgba(0, 242, 254, 0.2);
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+/* --- Tabel Skill & Pengalaman (Abyss Glow) --- */
+table {
+    background: rgba(10, 25, 47, 0.8);
+    border-collapse: collapse;
+    border: none !important; /* Menimpa atribut border="1" bawaan HTML */
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(0, 242, 254, 0.1) !important;
+}
+
+th {
+    background: linear-gradient(135deg, #0072ff 0%, #00f2fe 100%);
+    color: #ffffff;
+    padding: 14px;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+td {
+    padding: 18px;
+    vertical-align: top;
+    border-bottom: 1px solid rgba(0, 242, 254, 0.05);
+}
+
+/* List di dalam tabel */
+ul {
+    margin: 0;
+    padding-left: 15px;
+}
+
+li {
+    margin-bottom: 10px;
+    list-style-type: '⚡ '; /* Mengganti bullet point dengan ikon petir biru/energi */
+    color: #e2e8f0;
+}
+
+/* Efek khusus untuk tulisan "(Supreme)" */
+li:contains, td {
+    transition: color 0.3s ease;
+}
+
+li:hover {
+    color: #00f2fe;
+}
+
+/* --- Footer --- */
+footer {
+    color: #64748b; /* Abu-abu redup khas tema gelap */
+    font-size: 0.85em;
+    padding-bottom: 25px;
+}
+
+
+/* --- Base Styling (Deep Ocean Night) --- */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #0a192f 0%, #0f2042 100%);
+    color: #cbd5e1;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+/* --- Navigasi (Neon Dark Floating) --- */
+nav {
+    text-align: center;
+    background: rgba(15, 32, 66, 0.7);
+    backdrop-filter: blur(12px);
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+    border: 1px solid rgba(0, 242, 254, 0.15);
+    margin-bottom: 20px;
+}
+
+nav a {
+    color: #00f2fe;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 15px;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    color: #ffffff;
+    background-color: rgba(0, 242, 254, 0.2);
+    border-radius: 6px;
+    text-shadow: 0 0 8px rgba(0, 242, 254, 0.6);
+}
+
+/* --- Garis Pembatas (Laser Cyan) --- */
+hr {
+    border: 0;
+    height: 1px;
+    background: linear-gradient(to right, transparent, #00f2fe, transparent);
+    margin: 30px 0;
+}
+
+/* --- Container Form (Contact Me) --- */
+div:has(form) {
+    background: rgba(15, 32, 66, 0.5);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    max-width: 600px;
+    margin: 40px auto;
+}
+
+h1 {
+    color: #ffffff;
+    text-align: center;
+    margin-top: 0;
+    text-shadow: 0 0 10px rgba(0, 242, 254, 0.3);
+}
+
+/* --- Label Form --- */
+label {
+    color: #00f2fe;
+    font-weight: 600;
+    font-size: 0.95em;
+    letter-spacing: 0.5px;
+    display: inline-block;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+/* --- Input & Textarea --- */
+input[type="email"], textarea {
+    width: 100%;
+    box-sizing: border-box; /* Mencegah inputan melewati batas lebar container */
+    background: rgba(10, 25, 47, 0.7);
+    border: 1px solid rgba(0, 242, 254, 0.2);
+    border-radius: 8px;
+    padding: 12px;
+    color: #ffffff;
+    font-family: inherit;
+    font-size: 100%;
+    margin-bottom: 15px;
+    transition: all 0.3s ease;
+}
+
+/* Efek saat input diklik / fokus */
+input[type="email"]:focus, textarea:focus {
+    outline: none;
+    border-color: #00f2fe;
+    box-shadow: 0 0 12px rgba(0, 242, 254, 0.4);
+    background: rgba(10, 25, 47, 0.9);
+}
+
+/* Warna tulisan placeholder */
+::placeholder {
+    color: #64748b;
+    opacity: 1;
+}
+
+/* --- Tombol Submit (Kirim) --- */
+input[type="submit"] {
+    background: linear-gradient(135deg, #0072ff 0%, #00f2fe 100%);
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    box-shadow: 0 4px 15px rgba(0, 114, 255, 0.3);
+    transition: all 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 242, 254, 0.5);
+    letter-spacing: 1px;
+}
+
+input[type="submit"]:active {
+    transform: translateY(1px);
+}
+
+/* --- Footer --- */
+footer {
+    color: #64748b;
+    font-size: 0.85em;
+    padding-bottom: 25px;
+}
+
+
+/* --- Base Styling (Deep Ocean Night) --- */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #0a192f 0%, #0f2042 100%);
+    color: #cbd5e1;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.8;
+}
+
+/* --- Navigasi (Neon Dark Floating) --- */
+nav {
+    text-align: center;
+    background: rgba(15, 32, 66, 0.7);
+    backdrop-filter: blur(12px);
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+    border: 1px solid rgba(0, 242, 254, 0.15);
+    margin-bottom: 20px;
+}
+
+nav a {
+    color: #00f2fe;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 15px;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    color: #ffffff;
+    background-color: rgba(0, 242, 254, 0.2);
+    border-radius: 6px;
+    text-shadow: 0 0 8px rgba(0, 242, 254, 0.6);
+}
+
+/* --- Garis Pembatas (Laser Cyan) --- */
+hr {
+    border: 0;
+    height: 1px;
+    background: linear-gradient(to right, transparent, #00f2fe, transparent);
+    margin: 30px 0;
+}
+
+/* --- Konten Utama (About Me Card) --- */
+article {
+    background: rgba(15, 32, 66, 0.5);
+    padding: 35px;
+    border-radius: 15px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    max-width: 650px;
+    margin: 40px auto;
+    text-align: center; /* Membuat semua teks di dalamnya rata tengah */
+}
+
+article h1 {
+    color: #ffffff;
+    margin-top: 0;
+    text-shadow: 0 0 10px rgba(0, 242, 254, 0.3);
+    font-size: 2.2em;
+    margin-bottom: 20px;
+}
+
+article p {
+    font-size: 1.05em;
+    color: #cbd5e1;
+    margin-bottom: 15px;
+}
+
+/* --- Styling Pemutar Video --- */
+video {
+    max-width: 100%; /* Biar responsif kalau dibuka di HP */
+    border-radius: 10px;
+    border: 2px solid rgba(0, 242, 254, 0.3);
+    box-shadow: 0 0 20px rgba(0, 242, 254, 0.2);
+    margin-top: 15px;
+    background-color: #0a192f;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+video:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 25px rgba(0, 242, 254, 0.4);
+}
+
+/* --- Footer --- */
+footer {
+    color: #64748b;
+    font-size: 0.85em;
+    padding-bottom: 25px;
+}
